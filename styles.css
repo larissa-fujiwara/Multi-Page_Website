@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    text-align: center;
+    font-family: Poppins, 'Segoe UI', sans-serif;
+}
+
+nav{
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 25px;
+    border-bottom: 2px solid #cff2bf;
+}
+
+nav a{
+    text-decoration: none;
+    color: #4faf13;
+    margin: 0 20px;
+}
+
+nav a:hover{
+    color: #d24a0c;
+}
+
+nav a.active{
+    color: #d24a0c;
+}
+
+header{
+    padding-top: calc(50px + 1rem + 2px);
+}
+
+h1{
+    color: #08450e;
+    margin-top: 100px;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2em;
+}
+
+h1 ~ p {
+    color: #0a330e;
+    width: 700px;
+    margin: 20px auto;
+}
+
+#cta-button{
+    color: #e8f4e7;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #126f1b, #0bbb34);
+    display: inline-block;
+    padding: 1em 3em;
+    font-weight:600;
+    border-radius: 1000px;
+    transition: 150ms ease;
+}
+
+#cta-button:hover{
+    background: linear-gradient(to right, #d24a0c, #dda820);
+    scale: 1.1;
+}
+
+.video-player{
+    margin-top: 30px;
+    width: min(1100px, 100%);
+    aspect-ratio: 16 / 9;
+    border-radius: 15px;
+    border: 1px solid grey;
+}
+
+.products-container{
+    margin-top:30px;
+}
+
+.item{
+    box-sizing: border-box;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin: 0 20px;
+    margin-bottom: 20px;
+    vertical-align: top;
+    align-content: center;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.item > h2 {
+    color: #08450e;
+    margin-bottom: 10px;
+}
+
+.item > p {
+    color: #0a330e;
+}
+
+.item > img {
+    width: 60%;
+    margin-bottom: 4px;
+    border: 1px solid #0a330e;
+    border-radius: 8px;
+}
+
+.item:nth-child(2n-1){
+    background-color: #def1db;
+    border: 1px solid #0a330e;
+}
+
+.item:nth-child(2n){
+    background-color: #c4e2bf;
+    border: 1px solid #0a330e;
+}
+
+.item:hover{
+    cursor: pointer;
+}
+
+form{
+    margin-top: 30px;
+}
+
+input{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    font: inherit; /* form não herda a fonte automaticamente */
+    border-radius: 30px;
+}
+
+input[type="text"], input[type="password"] {
+    padding: 5px 20px;
+    width: 400px;
+    height: 44px;
+    border: 1px solid #08450e;
+    background-color: #e8f4e7;
+    transition: background-color 300ms ease;
+}
+
+input[type="text"]:focus, input[type="password"]:focus{
+    background-color: #cffacb;
+}
+
+input[type="submit"]{
+    cursor: pointer;
+    width: 200px;
+    padding: 10px;
+    font-weight: bold;
+    color: #e8f4e7;
+    background: linear-gradient(to right, #126f1b, #0bbb34);
+    transition: 300ms ease;
+    border: 1px solid #0a330e;
+}
+
+input[type="submit"]:hover{
+    background: linear-gradient(to right, #d24a0c, #dda820);
+    border: 1px solid #d24a0c;
+}
