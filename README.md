@@ -2,6 +2,8 @@
 
 **Descrição:** Projeto desenvolvido para fixação de conceitos de HTML e CSS.
 
+**Tema do site:** Inspirado na nação de Sumeru de Genshin Impact
+
 **Curso:** Learn HTML and CSS in 7 Days by Coding2GO
 
 **URL:** <a style="font-weight:bold; font-size: 16px;" href="https://larissa-fujiwara.github.io/Multi-Page_Website/">Multipage Website</a>
