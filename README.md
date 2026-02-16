@@ -1,2 +1,26 @@
-# Multi-Page_Website
-Projeto desenvolvido em aula para fixação de conceitos relacionados à HTML e CSS
+# Multi Page Website
+
+**Descrição:** Projeto desenvolvido para fixação de conceitos de HTML e CSS.
+
+**Curso:** Learn HTML and CSS in 7 Days by Coding2GO
+
+## Tópicos deste projeto
+
+- **Introdução ao HTML:**
+    - HTML boilerplate;
+    - tags semânticas;
+    - incorporar vídeos (por questão de copyright, adicionei uma imagem no lugar do iframe);
+    - Conceitos de box-model;
+    - Formulários;
+- **Introdução ao CSS:**
+    - Conceitos de classes e IDs;
+    - CSS combinators (descendant, child selector, next-sibling, subsequent-sibling, attribute selector);
+    - Pseudo-seletores;
+    - Pseudo-elementos;
+    - Efeitos gradientes;
+    - Box model;
+    - Transições;
+
+
+
+
