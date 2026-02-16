@@ -8,6 +8,10 @@
 
 **URL:** <a style="font-weight:bold; font-size: 16px;" href="https://larissa-fujiwara.github.io/Multi-Page_Website/">Multipage Website</a>
 
+## Preview do Site
+
+<img src="images/website-overview.gif" alt="preview do site">
+
 ## Tópicos deste projeto
 
 - **Introdução ao HTML:**
@@ -25,6 +29,6 @@
     - Box model;
     - Transições;
 
-
+OBS: imagens geradas por inteligência artificial (Gemini);
 
 
